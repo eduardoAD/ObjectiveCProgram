@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E406CBB219DB721300C4D535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E406CBB119DB721300C4D535 /* main.m */; };
+		E406CBBA19DB723200C4D535 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = E406CBB919DB723200C4D535 /* Shape.m */; };
+		E406CBBD19DB72AD00C4D535 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = E406CBBC19DB72AD00C4D535 /* Circle.m */; };
+		E406CBC019DB760300C4D535 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = E406CBBF19DB760300C4D535 /* Button.m */; };
+		E406CBC319DB772C00C4D535 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = E406CBC219DB772C00C4D535 /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		E406CBAE19DB721300C4D535 /* ObjectiveCProgram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveCProgram; sourceTree = BUILT_PRODUCTS_DIR; };
 		E406CBB119DB721300C4D535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E406CBB819DB723200C4D535 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		E406CBB919DB723200C4D535 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		E406CBBB19DB72AD00C4D535 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		E406CBBC19DB72AD00C4D535 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		E406CBBE19DB760300C4D535 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		E406CBBF19DB760300C4D535 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		E406CBC119DB772C00C4D535 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		E406CBC219DB772C00C4D535 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				E406CBB119DB721300C4D535 /* main.m */,
+				E406CBB819DB723200C4D535 /* Shape.h */,
+				E406CBB919DB723200C4D535 /* Shape.m */,
+				E406CBBB19DB72AD00C4D535 /* Circle.h */,
+				E406CBBC19DB72AD00C4D535 /* Circle.m */,
+				E406CBBE19DB760300C4D535 /* Button.h */,
+				E406CBBF19DB760300C4D535 /* Button.m */,
+				E406CBC119DB772C00C4D535 /* Rectangle.h */,
+				E406CBC219DB772C00C4D535 /* Rectangle.m */,
 			);
 			path = ObjectiveCProgram;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E406CBBD19DB72AD00C4D535 /* Circle.m in Sources */,
 				E406CBB219DB721300C4D535 /* main.m in Sources */,
+				E406CBBA19DB723200C4D535 /* Shape.m in Sources */,
+				E406CBC019DB760300C4D535 /* Button.m in Sources */,
+				E406CBC319DB772C00C4D535 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

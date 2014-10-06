@@ -6,12 +6,27 @@
 //  Copyright (c) 2014 Globant. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
+#import "Shape.h"
+#include "Circle.h"
+#include "Button.h"
+#include "Rectangle.h"
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+int main() {
+
+    Shape *shape = [[Shape alloc] init];
+    NSLog(@"shape area %f", [shape area]);
+
+    Circle *circle = [[Circle alloc] init];
+    circle.radius = 2;
+    NSLog(@"circle area %f", [circle area]);
+
+    Button *roundButton = [[Button alloc] init];
+    roundButton.shape = circle;
+
+    Rectangle *square = [[Rectangle alloc] init];
+    Button *squareButton = [[Button alloc] init];
+    squareButton.shape = square;
+
     return 0;
 }
